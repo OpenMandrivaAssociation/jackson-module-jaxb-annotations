@@ -1,16 +1,13 @@
 Name:          jackson-module-jaxb-annotations
 Version:       2.4.2
-Release:       1%{?dist}
+Release:       1.1
+Group:		Development/Java
 Summary:       JAXB annotations support for Jackson (2.x)
 License:       ASL 2.0
 URL:           http://wiki.fasterxml.com/JacksonJAXBAnnotations
 Source0:       https://github.com/FasterXML/jackson-module-jaxb-annotations/archive/%{name}-%{version}.tar.gz
 
-%if %{?fedora} > 20
 BuildRequires: mvn(com.fasterxml.jackson:jackson-parent:pom:)
-%else
-BuildRequires: mvn(com.fasterxml.jackson:jackson-parent)
-%endif
 # Require glassfish-jaxb-api
 BuildRequires: mvn(javax.xml.bind:jaxb-api)
 BuildRequires: mvn(com.fasterxml.jackson.core:jackson-core)
