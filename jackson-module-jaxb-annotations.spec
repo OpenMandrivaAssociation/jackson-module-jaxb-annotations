@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:          jackson-module-jaxb-annotations
 Version:       2.4.2
-Release:       1.2
+Release:       1.3
 Group:		Development/Java
 Summary:       JAXB annotations support for Jackson (2.x)
 License:       ASL 2.0
