@@ -5,7 +5,7 @@ Release:       1.3
 Group:		Development/Java
 Summary:       JAXB annotations support for Jackson (2.x)
 License:       ASL 2.0
-URL:           http://wiki.fasterxml.com/JacksonJAXBAnnotations
+URL:           https://wiki.fasterxml.com/JacksonJAXBAnnotations
 Source0:       https://github.com/FasterXML/jackson-module-jaxb-annotations/archive/%{name}-%{version}.tar.gz
 
 BuildRequires: mvn(com.fasterxml.jackson:jackson-parent:pom:)
